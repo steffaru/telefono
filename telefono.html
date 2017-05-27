@@ -3,28 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Trabajo Práctico 13 - Teléfono</title>
+	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link href="js/utilidades.js">
 </head>
 <body>
-	<header></header>
+	<header>
+		<h1 class="titulo">Teléfono</h1>
+	</header>
 	<section>
+
 		<article class="nros">
-			<button>1</button>
-			<button>2</button>
-			<button>3</button>
-			<button>4</button>
-			<button>5</button>
-			<button>6</button>
-			<button>7</button>
-			<button>8</button>
-			<button>9</button>
-			<button>*</button>
-			<button>0</button>
-			<button>#</button>
-</article>
-			<button>Marcar</button>
-			<button>Llamar</button>
-			<button>Cancelar</button>
+			<div id="display" value=""></div>
+			<button id="number1">1</button>
+			<button id="number2">2</button>
+			<button id="number3">3</button>
+			<button id="number4">4</button>
+			<button id="number5">5</button>
+			<button id="number6">6</button>
+			<button id="number7">7</button>
+			<button id="number8">8</button>
+			<button id="number9">9</button>
+			<button id="number*">*</button>
+			<button id="number0">0</button>
+			<button id="number#">#</button>
+		</article>
+		<article class="botones">
+			<button>
+				<span class="icon-phone"></span>
+			</button>
+			<button>
+				<span class="icon-phone-hang-up"></span>
+			</button>
+			<button>
+				<span class="icon-floppy-disk"></span>
+			</button>
+		</article>
 		
 	</section>
 	<footer></footer>
